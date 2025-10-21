@@ -1,0 +1,19 @@
+{
+  "name": "notary-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "sass scss:css --style=expanded",
+    "watch:css": "sass scss:css --watch --style=expanded",
+    "build": "npm run build:css",
+    "watch": "npm run watch:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}
